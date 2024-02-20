@@ -1,7 +1,7 @@
 const express = require('express');
 
 // requerimos todos los routes o rutas de nuestra app
-const users = require('../components/users/router.js')
+const users = require('../components/user/router.js')
 
 // express tiene un metodo que funciona como enrutador para enlazar todas nuestras rutas de nuestra aplicacion (Localhost:3100/)
 const router = express.Router();
